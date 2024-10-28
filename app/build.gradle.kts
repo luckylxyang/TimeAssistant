@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.kotlin.sp)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.navigation.safeargs)
+//    alias(libs.plugins.navigation.safeargs)
 }
 
 android {
@@ -65,7 +65,7 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.navigation.compose)
-    implementation(libs.androidx.navigation.safe.args.gradle.plugin)
+//    implementation(libs.androidx.navigation.safe.args.gradle.plugin)
     ksp(libs.androidx.room.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
